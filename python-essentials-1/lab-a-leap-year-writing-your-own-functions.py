@@ -1,6 +1,6 @@
 def is_year_leap(year):
     if year < 1582:
-        return False
+        return None
     return (year % 4 == 0 and year % 100 != 0) or year % 400 == 0
     # result = True
     # if year < 1582:
